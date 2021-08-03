@@ -1,0 +1,31 @@
+#game div {
+	border: 1px solid black;
+	width: 15%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.stopClick {
+	pointer-events: none;
+}
+
+h2 {
+	display: none;
+}
+
+button {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: lime;
+	font-size: 1.5em;
+	margin-left: 10px;
+}
+
+button:active {
+	box-shadow: inset 2px 2px 3px yellow;
+}
+
+button:hover {
+	box-shadow: 2px 2px 2px gray;
+}
